@@ -48,7 +48,3 @@ final_track.export(output_file, format="wav")
 > The logic behind the harmony remains undisclosed.
 > Listen, and you may sense it.
 
-```
-
-それとも **技術ドキュメント寄り**にしますか？
-```
