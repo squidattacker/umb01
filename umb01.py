@@ -1,4 +1,5 @@
 # --- 必要ライブラリ ---
+# 以下コードをそのままGooGle Colab へコピペ
 !pip install -q pydub numpy soundfile
 
 import numpy as np, random, os
@@ -59,7 +60,7 @@ def make_spark_hat(duration=80):
     R = (hat-int(abs(pan)*12)) if pan<0 else hat
     return safe_stereo(L,R) - 12
 
-# ===== Dub Snare（最終版：少し音量UP） =====
+# ===== Dub Snare =====
 def make_dub_snare_erotic_fb_final(bpm=120, attack_ms=25, tail_sec=12.0,
                                    feedback_gain=0.75, repeats=10, delay_ms=380,
                                    wet_gain_db=-4, dry_gain_db=-24):
